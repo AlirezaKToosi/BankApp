@@ -14,35 +14,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66f04378-8089-4950-b63b-c96ac2c73ea6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BankApp_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_5_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BankApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/novare/bankApp/controller/BankController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/novare/bankApp/data/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/novare/bankApp/data/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/novare/bankApp/model/BankModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/novare/bankApp/view/BankView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BankControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BankModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BankViewTest.java" afterDir="false" />
+    <list default="true" id="66f04378-8089-4950-b63b-c96ac2c73ea6" name="Changes" comment="Add all part of BankApp Project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,12 +157,24 @@
       <workItem from="1688652645313" duration="2656000" />
       <workItem from="1688670855995" duration="20499000" />
       <workItem from="1688724453603" duration="1560000" />
-      <workItem from="1688726096043" duration="28209000" />
+      <workItem from="1688726096043" duration="28987000" />
     </task>
+    <task id="LOCAL-00001" summary="Add all part of BankApp Project">
+      <created>1688764780691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688764780691</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add all part of BankApp Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add all part of BankApp Project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

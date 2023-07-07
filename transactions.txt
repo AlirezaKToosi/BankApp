@@ -1,0 +1,3 @@
+1986-Bah,Deposit,1000.0
+1985-ali,Deposit,100.0
+1985-ali, Transfer ,50.01986-Bah,

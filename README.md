@@ -97,11 +97,12 @@ The mock classes allow capturing method invocations and providing expected respo
 
 ## Running the Application
 
-To run the bank application, execute the `BankController` through `Main` class.
+"java -jar BankApp.jar
+![](out/artifacts/BankApp_jar/BankApp.jar)
+
 It will start the application and display a menu for user interaction. 
 Follow the prompts and make choices to perform different operations,
 such as creating a user, logging in, checking balance, depositing, withdrawing, and transferring funds.
-And also can run the Jar file in the [](out/artifacts/BankApp_jar/BankApp.jar)
 
 ### Back Log:
 

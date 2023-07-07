@@ -42,8 +42,8 @@ And also can run the Jar file in the [](out/artifacts/BankApp_jar/BankApp.jar)
 
 ### Back Log:
 
-More Diagrams Ref: BackLog.pdf
-![](BackLog.pdf)
+More Diagrams Ref: https://github.com/AlirezaKToosi/BankApp/blob/master/BackLog.pdf
+![](https://github.com/AlirezaKToosi/BankApp/blob/master/BackLog.pdf)
 
 ### Usecase Diagram:
 

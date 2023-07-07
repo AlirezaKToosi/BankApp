@@ -4,6 +4,50 @@ This project is a simple bank application that allows users to create accounts,
 perform transactions, and manage their balances. 
 It consists of three main classes: `BankController`, `BankModel`, and `BankView`.
 
+User account:
+A user can be able to sign up to become a customer of the bank. In the signup process, the
+customer will have to provide a social security number and a password. Only a user that is
+above 18 is allowed to sign up for an account. These credentials will be used for login into the
+bank. A user can change their password after being logged in. 
+The format which is used is as follows
+yyyy-abc
+The ‘abc’ is any 3 alphabetic character combinations. I.e no numbers or special characters. For
+example:
+1989-qwe
+1999-ppe
+2004-rtt
+The Password must be at least 8 characters and contain 1 uppercase, 1 lowercase, and 1 number
+
+Bank Account:
+A bank account is consist of an amount, transaction history and an account number. The last
+of which is unique. A bank account is connected to a user. The amount is not
+allowed to go under zero. The account number will consist of 4 random numbers followed by a
+short checksum value(this is a common feature for account- and card numbers). Note, the
+checksum will also be part of the account number.
+Here follows an example on how to calculate generate a new account number:
+• We generate 4 random numbers (1-9): 8 5 6 2
+• We summaries these numbers to generate the checksum. 8 + 5 + 6 + 2 = 21
+• We concatenate these numbers to generate the account number. Account number: 856221
+
+Actions:
+1-Balance: Display the current balance of the account.
+2-Deposit: Update the account balance by adding the deposit amount.
+3-Withdraw: Validate the availability of sufficient funds in the account and 
+Update the account balance by deducting the withdrawal amount and check to prevent 
+the account balance from going below zero.
+4-Money Send:Validate the recipient's account number.Validate the availability of sufficient funds in the source account.
+Update the account balances accordingly and check to prevent the amount from going below zero.
+5-Transaction History:Retrieve the transaction history for a specific bank account and display the transaction history,
+6-Change Password: Implement validation of the current password against the stored value.Hash the new password using 
+SHA256 with a salt value and Update the stored password with the new hashed value.
+
+Data Storage:
+Both of User signup and transactions stored in separate files and the users information stored in different
+file for retrieving after each close of application so the app do not miss any user information.
+
+
+
+
 ## Class Descriptions
 
 ### BankController
